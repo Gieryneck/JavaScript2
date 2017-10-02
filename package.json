@@ -1,0 +1,21 @@
+{
+  "name": "javascript2",
+  "version": "1.0.0",
+  "description": "js2",
+  "main": "index.js",
+  "scripts": {
+    "test": "teest"
+  },
+  "keywords": [
+    "js2"
+  ],
+  "author": "Gieryneck",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.13",
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-sass": "^2.0.0"
+  }
+}
