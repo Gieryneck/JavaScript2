@@ -14,8 +14,17 @@
   "devDependencies": {
     "browser-sync": "^2.18.13",
     "grunt": "^1.0.1",
+    "grunt-browser-sync": "^2.2.0",
     "grunt-contrib-jshint": "^1.1.0",
     "grunt-contrib-watch": "^1.0.0",
     "grunt-sass": "^2.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Gieryneck/JavaScript2.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Gieryneck/JavaScript2/issues"
+  },
+  "homepage": "https://github.com/Gieryneck/JavaScript2#readme"
 }

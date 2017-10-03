@@ -2,6 +2,8 @@ module.exports = function(grunt) {
   
   // Project configuration
   grunt.initConfig({
+
+
     sass: {
 
         options: {
@@ -22,19 +24,6 @@ module.exports = function(grunt) {
 
 
 
-
-
-    jshint: {
-
-        all: ['gruntfile.js', 'js/*.js']
-    },
-
-
-
-    
-
-
-
     watch: {
 
         styles: {
@@ -49,13 +38,23 @@ module.exports = function(grunt) {
         scripts: {
 
             files: ['gruntfile.js', 'js/*.js'],
-            tasks: ['grunt-contrib-jshint'],
+            tasks: ['jshint'],
             options: {
                 spawn: false,
           },
         }
 
     },
+
+
+
+
+    jshint: {
+
+        all: ['gruntfile.js', 'js/*.js']
+    },
+
+
 
 
     browserSync: {
